@@ -1,6 +1,8 @@
 # R adalah bahasa yang banyak dikuasai dan menjadi pilihan banyak Data Scientist dunia karena penggunaannya yang cukup mudah di bandingkan bahasa lain seperti Java. Pemula sangat disarankan untuk memulai dengan R untuk mempelajari basic dari Data Science itu sendiri.
 # Jika ingin coding dengan R, baik pemula maupun profesional, sangat disarankan menggunakan R Studio dengan UI yang ramah bagi user.
 
+# ---------------------------------------------------------------------------------------------------------------------
+
 # VEKTOR
 # Vektor adalah variable yang dapat memuat lebih dari satu data (mirip array). Syntax nya adalah sebagai berikut:
 # Elemen -> c(1,2,3,4,5)				--> syntax paling dasar
@@ -17,6 +19,8 @@ vektor1 + vektor2						# setiap elemen vektor1 akan dijumlahkan tunggal dengan e
 vektor3 = c(6,7)
 vektor1 - vektor3						# akan ERROR dikarenakan jumlah elemen vektor1 tidak sama dengan jumlah elemen vektor3
 vektor4 = c("Data", "Big", 9)			# angka 9 akan dianggap sebagai string seperti elemen lainnya sehingga jika dioperasikan dengan aritmatika akan menghasilkan ERROR
+
+# ---------------------------------------------------------------------------------------------------------------------
 
 # MATRIKS
 # Matriks adalah angka yang disusun menjadi baris dan kolom. Syntax nya adalah sebagai berikut.
@@ -40,3 +44,7 @@ mat * 3							# Setiap elemen dalam matriks akan dikalikan dengan 3
 mat1 = matrix(c(2,3,4,5,6,7,8,9,10), nrow=3, byrow=FALSE)
 mat * mat1
 # Setiap elemen dalam kedua matriks akan dikalikan masing-masing sesuai posisinya. Apabila kedua matriks tidak sama jumlah elemennya, maka akan terjadi ERROR.
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+#OPERASI PADA DATA NUMERIK DAN FAKTOR
