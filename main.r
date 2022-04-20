@@ -47,4 +47,11 @@ mat * mat1
 
 # ---------------------------------------------------------------------------------------------------------------------
 
-#OPERASI PADA DATA NUMERIK DAN FAKTOR
+# OPERASI PADA DATA NUMERIK DAN FAKTOR
+# Di dalam Machine Learning, kita mengenal 2 jenis data, yaitu data kontinu (linear) dan data diskrit (logistik / categorical).
+# Faktor merupakan tipe data kategorikal/diskrit, bukan numerik sehingga tidak dapat digunakan bersamaan dengan operasi aritmatika. Dalam praktiknya, umumnya yang termasuk faktor contohnya seperti data jenis kelamin, alamat rumah, dan sebagainya.
+
+a = c(0,1,2,3,4)   # a merupakan vektor biasa yang bersifat numerical.
+b = as.factor(a)   # b adalah faktor yang bersifat categorical/diskrit.
+
+# ---------------------------------------------------------------------------------------------------------------------
